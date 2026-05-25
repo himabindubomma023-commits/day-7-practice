@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Website</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            font-family:Arial, sans-serif;
+            background:#f4f4f4;
+        }
+
+        header{
+            background:#222;
+            color:white;
+            padding:20px;
+            text-align:center;
+        }
+
+        nav{
+            background:#444;
+            padding:10px;
+            text-align:center;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin:15px;
+            font-weight:bold;
+        }
+
+        main{
+            display:flex;
+            margin:20px;
+            gap:20px;
+        }
+
+        section{
+            flex:3;
+        }
+
+        article{
+            background:white;
+            padding:20px;
+            margin-bottom:20px;
+            border-radius:10px;
+        }
+
+        aside{
+            flex:1;
+            background:white;
+            padding:20px;
+            border-radius:10px;
+            height:fit-content;
+        }
+
+        footer{
+            background:#222;
+            color:white;
+            text-align:center;
+            padding:15px;
+            margin-top:20px;
+        }
+
+        h2{
+            margin-bottom:10px;
+        }
+
+        p{
+            line-height:1.6;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Daily News</h1>
+        <p>Your Trusted News Portal</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Sports</a>
+        <a href="#">Technology</a>
+        <a href="#">Politics</a>
+    </nav>
+
+    <main>
+
+        <section>
+
+            <article>
+                <h2>Technology News</h2>
+                <p>
+                    Artificial Intelligence is changing the future of technology
+                    with faster innovations and smart automation.
+                </p>
+            </article>
+
+            <article>
+                <h2>Sports Update</h2>
+                <p>
+                    The national cricket team won the match by 6 wickets
+                    in an exciting final over.
+                </p>
+            </article>
+
+        </section>
+
+        <aside>
+            <h2>Trending Topics</h2>
+            <ul>
+                <li>AI Tools</li>
+                <li>Olympics</li>
+                <li>Space Research</li>
+                <li>Stock Market</li>
+            </ul>
+        </aside>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Daily News. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
