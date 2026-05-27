@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>College Registration Form</title>
+
+    <style>
+
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+
+        form{
+            width: 400px;
+            margin: 30px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        h2{
+            text-align: center;
+        }
+
+        label{
+            font-weight: bold;
+        }
+
+        input,
+        select,
+        textarea{
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+        }
+
+        button{
+            background: blue;
+            color: white;
+            padding: 10px;
+            border: none;
+            width: 100%;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <form>
+
+        <h2>College Registration Form</h2>
+
+        <label>Full Name</label>
+        <input type="text" placeholder="Enter your name">
+
+        <label>Email</label>
+        <input type="email" placeholder="Enter your email">
+
+        <label>Password</label>
+        <input type="password" placeholder="Enter password">
+
+        <label>Gender</label><br>
+
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female
+
+        <br><br>
+
+        <label>Courses Interested</label><br>
+
+        <input type="checkbox"> CSE
+        <input type="checkbox"> ECE
+        <input type="checkbox"> MECH
+
+        <br><br>
+
+        <label>Department</label>
+
+        <select>
+            <option>CSE</option>
+            <option>ECE</option>
+            <option>EEE</option>
+            <option>MECH</option>
+        </select>
+
+        <label>Address</label>
+
+        <textarea rows="4" placeholder="Enter your address"></textarea>
+
+        <button type="submit">Register</button>
+
+    </form>
+
+</body>
+</html>
